@@ -8,7 +8,9 @@
 import scrapy
 
 
-class ScrapyTutorialItem(scrapy.Item):
+class PriceItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    date = scrapy.Field()
+    price = scrapy.Field()
+    tripType = scrapy.Field()
